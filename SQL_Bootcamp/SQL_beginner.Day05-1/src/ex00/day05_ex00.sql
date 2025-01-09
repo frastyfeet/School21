@@ -1,0 +1,1 @@
+CREATE INDEX idx_menu_pizzeria_id ON menu(pizzeria_id)

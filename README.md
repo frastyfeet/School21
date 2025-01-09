@@ -13,6 +13,7 @@
    - [LinuxNetwork](#linuxnetwork)
    - [SimpleDocker](#simpledocker)
    - [CI/CD](#cicd)
+3. [SQL](#postgresql)
 
 ## C_projects :skull:
 <a id="matrixx-image"></a>
@@ -42,6 +43,7 @@
     Внутри всех проектов лежит `report.md` с наглядным решением задач.
 <a id="devops"></a>
 ![devops](images/simple_docker.png)
+
 #### Linux
     Установка и обновления системы Linux. Основы администрирования.  
 [Linux](https://github.com/frastyfeet/School21/tree/main/DevOps/D01_Linux-1)
@@ -57,3 +59,24 @@
 #### CI/CD
     Разработка простого CI/CD для проекта SimpleBashUtils. Сборка, тестирование, развертывание.  
 [CI/CD](https://github.com/frastyfeet/School21/tree/main/DevOps/DO6_CICD-1)
+
+## PostgreSQL :elephant:
+<a id="postgresql"></a>
+![postgresql](images/schema.png)
+
+Данный репозиторий содержит задачи и их решения, выполненные в рамках курса по SQL. Все задачи были решены на основе подготовленной таблицы данных.
+
+[*SQL_Bootcamp*](https://github.com/frastyfeet/School21/tree/main/SQL_Bootcamp)
+
+#### **Типы задач**:
+- Работа с базовыми SQL-запросами (`SELECT`, `WHERE`, `GROUP BY`, `ORDER BY`)
+- Использование `JOIN` для объединения таблиц
+- Выполнение операций добавления, изменения и удаления данных (`INSERT`, `UPDATE`, `DELETE`)
+- Создание виртуальных представлений данных (`VIEW`)
+- Работа с индексами для оптимизации запросов
+- Управление транзакциями (`BEGIN`, `COMMIT`, `ROLLBACK`)
+- Реализация пользовательских функций
+- Создание и использование триггеров для автоматизации обработки данных
+
+
+
