@@ -1,21 +1,22 @@
 # School21 :school:
     Тут находятся проекты с обучения в Школе 21
 ## Contents :book:
-   1. [C_projects](#C_projects) 
-      - [Brickgame](#Brickgame) 
-      - [Matrix](#Matrix)
-      - [Decimal](#Decimal)
-      - [String](#String)
-      - [SimpleBash](#SimpleBash)
-   2. [DevOps](#DevOps) 
-      - [Linux](#Linux) 
-      - [LinuxNetwork](#LinuxNetwork)
-      - [SimpleDocker](#SimpleDocker)
-      - [CI/CD](#CI/CD)
+   1. [C_projects](#c_projects) 
+      - [Brickgame](#brickgame) 
+      - [Matrix](#matrix)
+      - [Decimal](#decimal)
+      - [String](#string)
+      - [SimpleBash](#simplebash)
+   2. [DevOps](#devops) 
+      - [Linux](#linux) 
+      - [LinuxNetwork](#linuxnetwork)
+      - [SimpleDocker](#simpledocker)
+      - [CI/CD](#cicd)
       
 
 
-# C_projects :skull:
+## C_projects
+## :skull:
 ![simple_docker](images/simple_docker.png)
 
 #### Brickgame
@@ -36,7 +37,8 @@
     Разработка утилит Bash по работе с текстом: cat, grep.
 [SimpleBash](<https://github.com/frastyfeet/School21/tree/main/C_projects/C3_SimpleBashUtils-1>)
 
-# DevOps :whale:
+## DevOps 
+## :whale:
     внутри всех проектов лежит report.md с наглядным решением задач
 #### Linux
     Установка и обновления системы Linux. Основы администрирования.
