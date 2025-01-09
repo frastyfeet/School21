@@ -87,5 +87,5 @@
 
 #### Matrix_OOP
     Реализация библиотеки s21_matrix_oop.h с использованием принципов ООП.
-[Matrix_OOP](https://github.com/frastyfeet/School21/tree/main/С++_Projects/CPP1_s21_matrixplus-2)
+[Matrix_OOP](https://github.com/frastyfeet/School21/tree/main/C%2B%2B_Projects/CPP1_s21_matrixplus-2)
 
