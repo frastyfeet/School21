@@ -1,5 +1,5 @@
 # School21
-
+    Тут находятся проекты с обучения в Школе 21
 ## Contents :book:
    1. [C_projects](#C_projects) 
       - [Brickgame](#Brickgame) 
