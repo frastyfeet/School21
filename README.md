@@ -2,7 +2,7 @@
 Тут находятся проекты с обучения в Школе 21.
 
 ## Contents :book:
-1. [C_projects](#matrixx-image)
+1. [C](#matrixx-image)
    - [Brickgame](#brickgame)
    - [Matrix](#matrix)
    - [Decimal](#decimal)
@@ -14,8 +14,10 @@
    - [SimpleDocker](#simpledocker)
    - [CI/CD](#cicd)
 3. [SQL](#postgresql)
+4. [C++](#cpp) 
+   - [Matrix_OOP](#matrix_oop)
 
-## C_projects :skull:
+## C :skull:
 <a id="matrixx-image"></a>
 ![matrixx](images/matrixx.png)
 
@@ -78,5 +80,12 @@
 - Реализация пользовательских функций
 - Создание и использование триггеров для автоматизации обработки данных
 
+## C++ :full_moon:
+<a id="cpp"></a>
+![cpp](images/s21_matrix.png)
 
+
+#### Matrix_OOP
+    Реализация библиотеки s21_matrix_oop.h с использованием принципов ООП.
+[Matrix_OOP](https://github.com/frastyfeet/School21/tree/main/С++_Projects/CPP1_s21_matrixplus-2)
 
