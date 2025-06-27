@@ -288,6 +288,7 @@ class RBtree {
     }
     return find_node;
   }
+
   Node<Key>* root;
   static inline Node<Key>* NIL = []() {
     Node<Key>* nil = new Node<Key>();
@@ -506,7 +507,7 @@ class RBtree {
 
   void copy_from(Node<Key>* node) {
     if (node == NIL) return;
-    insert(node->value);  // важно: используйте публичный insert
+    insert(node->value);
     copy_from(node->left);
     copy_from(node->right);
   }

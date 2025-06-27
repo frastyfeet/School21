@@ -15,7 +15,7 @@ class array {
   using const_iterator = const T *;
   using size_type = size_t;
 
-  size_type size();
+  size_type size() const;
   size_type max_size();
 
   array();

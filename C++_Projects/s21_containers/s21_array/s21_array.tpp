@@ -25,9 +25,9 @@ array<T, N>::array(array &&a) {
   std::swap(data_, a.data_);
 }
 
-template <typename T, std::size_t N>
-typename array<T, N>::size_type array<T, N>::size() {
-  return _size;
+template <typename T, size_t N>
+typename array<T, N>::size_type array<T, N>::size() const {
+  return N;
 }
 
 template <typename T, std::size_t N>
@@ -74,7 +74,7 @@ typename array<T, N>::reference array<T, N>::at(size_type pos) {
 
 template <typename T, std::size_t N>
 typename array<T, N>::const_reference array<T, N>::front() {
-  return data_;
+  return data_[0];
 }
 
 template <typename T, std::size_t N>
@@ -91,12 +91,12 @@ void array<T, N>::swap(array &other) {
 template <typename T, std::size_t N>
 bool array<T, N>::operator>(const array<T, N> &other) {
   for (size_t i = 0; i < N; ++i) {
-    if (this->data_[i] > other.data_[i]) {
-      return true;
-    }
+    if (this->data_[i] > other.data_[i]) return true;
+    if (this->data_[i] < other.data_[i]) return false;
   }
   return false;
 }
+
 template <typename T, std::size_t N>
 bool array<T, N>::operator==(const array<T, N> &other) {
   for (size_t i = 0; i < N; ++i) {
@@ -118,9 +118,8 @@ bool array<T, N>::operator!=(const array<T, N> &other) {
 template <typename T, std::size_t N>
 bool array<T, N>::operator<(const array<T, N> &other) {
   for (size_t i = 0; i < N; ++i) {
-    if (this->data_[i] < other.data_[i]) {
-      return true;
-    }
+    if (this->data_[i] < other.data_[i]) return true;
+    if (this->data_[i] > other.data_[i]) return false;
   }
   return false;
 }

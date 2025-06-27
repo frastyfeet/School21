@@ -45,13 +45,13 @@ typename set<Key>::size_type set<Key>::size() const {
 
 template <typename Key>
 typename set<Key>::size_type set<Key>::max_size() const {
-  return std::numeric_limits<size_type>::max() / sizeof(RBtree<Key>);
+  return std::allocator<value_type>().max_size();
 }
 
 template <typename Key>
 std::pair<typename set<Key>::iterator, bool> set<Key>::insert(
     const Key& value) {
-  typename RBtree<Key>::Node* result = tree.insert(value);
+  auto result = tree.insert(value);
   bool inserted = (result != nullptr);
   return {iterator(result), inserted};
 }
